@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="nbSL05x2Qdw1PbXFdGGO" name="Cat">
-        <mxGraphModel dx="422" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#003973" math="0" shadow="0">
+        <mxGraphModel dx="343" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#003973" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -42,6 +42,71 @@
                 </mxCell>
                 <mxCell id="21" value="+ getPermission(): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="6">
                     <mxGeometry y="294" width="226" height="26" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="App-Cat" id="65h_m2pgmK8eqjgmJX9w">
+        <mxGraphModel dx="1178" dy="1825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#003973" math="0" shadow="0">
+            <root>
+                <mxCell id="yX2nZecgM4aNIOGvPEPl-0"/>
+                <mxCell id="yX2nZecgM4aNIOGvPEPl-1" parent="yX2nZecgM4aNIOGvPEPl-0"/>
+                <mxCell id="yX2nZecgM4aNIOGvPEPl-2" value="Cat" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;rounded=1;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#F0F0F0;" vertex="1" parent="yX2nZecgM4aNIOGvPEPl-1">
+                    <mxGeometry x="480" y="-1120" width="280" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="yX2nZecgM4aNIOGvPEPl-3" value="- name: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#F0F0F0;" vertex="1" parent="yX2nZecgM4aNIOGvPEPl-2">
+                    <mxGeometry y="26" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="yX2nZecgM4aNIOGvPEPl-4" value="- furColor: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#F0F0F0;" vertex="1" parent="yX2nZecgM4aNIOGvPEPl-2">
+                    <mxGeometry y="52" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="yX2nZecgM4aNIOGvPEPl-5" value="- age: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#F0F0F0;" vertex="1" parent="yX2nZecgM4aNIOGvPEPl-2">
+                    <mxGeometry y="78" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="yX2nZecgM4aNIOGvPEPl-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;rounded=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#F0F0F0;" vertex="1" parent="yX2nZecgM4aNIOGvPEPl-2">
+                    <mxGeometry y="104" width="280" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="yX2nZecgM4aNIOGvPEPl-7" value="+ Cat ( String, String, int )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#F0F0F0;" vertex="1" parent="yX2nZecgM4aNIOGvPEPl-2">
+                    <mxGeometry y="112" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="yX2nZecgM4aNIOGvPEPl-8" value="+ getInstanceVariable (): Cat" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#F0F0F0;" vertex="1" parent="yX2nZecgM4aNIOGvPEPl-2">
+                    <mxGeometry y="138" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="yX2nZecgM4aNIOGvPEPl-9" value="+ getName(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#F0F0F0;" vertex="1" parent="yX2nZecgM4aNIOGvPEPl-2">
+                    <mxGeometry y="164" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="yX2nZecgM4aNIOGvPEPl-10" value="+ getFurColor(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#F0F0F0;" vertex="1" parent="yX2nZecgM4aNIOGvPEPl-2">
+                    <mxGeometry y="190" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="yX2nZecgM4aNIOGvPEPl-11" value="+ getAge(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#F0F0F0;" vertex="1" parent="yX2nZecgM4aNIOGvPEPl-2">
+                    <mxGeometry y="216" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="yX2nZecgM4aNIOGvPEPl-12" value="+ setFurColor(String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#F0F0F0;" vertex="1" parent="yX2nZecgM4aNIOGvPEPl-2">
+                    <mxGeometry y="242" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="yX2nZecgM4aNIOGvPEPl-13" value="+ setAge(int): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#F0F0F0;" vertex="1" parent="yX2nZecgM4aNIOGvPEPl-2">
+                    <mxGeometry y="268" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="yX2nZecgM4aNIOGvPEPl-14" value="+ getPermission(): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#F0F0F0;" vertex="1" parent="yX2nZecgM4aNIOGvPEPl-2">
+                    <mxGeometry y="294" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="HHbel5KxMXQk6lGlqkj4-0" value="App" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="yX2nZecgM4aNIOGvPEPl-1">
+                    <mxGeometry x="80" y="-1120" width="280" height="86" as="geometry"/>
+                </mxCell>
+                <mxCell id="HHbel5KxMXQk6lGlqkj4-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=#F0F0F0;" vertex="1" parent="HHbel5KxMXQk6lGlqkj4-0">
+                    <mxGeometry y="26" width="280" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="HHbel5KxMXQk6lGlqkj4-3" value="+ main ( String [] ): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=#F0F0F0;fontStyle=4" vertex="1" parent="HHbel5KxMXQk6lGlqkj4-0">
+                    <mxGeometry y="34" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="HHbel5KxMXQk6lGlqkj4-4" value="+ output ( String ): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=#F0F0F0;fontStyle=4" vertex="1" parent="HHbel5KxMXQk6lGlqkj4-0">
+                    <mxGeometry y="60" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="HHbel5KxMXQk6lGlqkj4-5" value="" style="endArrow=open;endFill=1;endSize=12;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=#F0F0F0;entryX=-0.002;entryY=0.042;entryDx=0;entryDy=0;exitX=1.004;exitY=0.155;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="yX2nZecgM4aNIOGvPEPl-1" source="HHbel5KxMXQk6lGlqkj4-0" target="yX2nZecgM4aNIOGvPEPl-2">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="360" y="-1100" as="sourcePoint"/>
+                        <mxPoint x="470" y="-1070" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
