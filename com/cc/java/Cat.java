@@ -1,12 +1,12 @@
 package com.cc.java;
 
 public class Cat {
-
-    // Eigenschaften / prperties / fields / attributes
-    String name = "Grizabella";
-    String furColor = "white";
-    int age = 29;
-
+  
+    // Felder / fields / attributes
+    public String name; // pass by reference
+    public String furColor;
+    public int age;  // pass by value
+    
     // Rückgabetyp -- Cat
     public Cat getInstanceVariable(){
         return this;
