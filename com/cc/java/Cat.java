@@ -7,6 +7,16 @@ public class Cat {
     public String furColor;
     public int age;  // pass by value
     
+
+    
+    public Cat(String name, String furColor, int age) {
+        this.name = name;
+        this.furColor = furColor;
+        this.age = age;
+    }
+
+
+
     // Rückgabetyp -- Cat
     public Cat getInstanceVariable(){
         return this;
