@@ -10,10 +10,9 @@ public class App {
         output("Blick von innen: " + cat.getInstanceVariable());
 
         // Werte ausgeben
-        output(cat.name);
-        output(cat.furColor);
-        output(Integer.toString(cat.age)); // Explizite Typumwandlung
-
+        output(cat.getName());
+        output(cat.getFurColor());
+        output(Integer.toString(cat.getAge())); // Explizite Typumwandlung
 
         System.out.println("----------------------------");
 
@@ -22,13 +21,10 @@ public class App {
         output("Blick von innen: " + cat2.getInstanceVariable());
 
         // Werte ausgeben
-        output(cat2.name);
-        output(cat2.furColor);
-        output(Integer.toString(cat2.age)); // Explizite Typumwandlung
-
-
-
-    }
+        output(cat2.getName());
+        output(cat2.getFurColor());
+        output(Integer.toString(cat2.getAge())); // Explizite Typumwandlung
+    } 
 
       // Statische Methode, die in der Klasse ausgeführt wird ...
     public static void output(String outputStr){
